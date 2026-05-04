@@ -1,38 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Spencer Leighty Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spencer Leighty | Data Project Analyst</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .project {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f2937;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Spencer Leighty</h1>
-  <p>Data Project Analyst Portfolio</p>
 
-  <h2>About Me</h2>
-  <p>
-    I am a data-focused professional with experience in customer service,
-    operations, team coordination, and statistical analysis.
-  </p>
+<header>
+    <h1>Spencer Leighty</h1>
+    <p>Data Project Analyst Portfolio</p>
+</header>
 
-  <h2>Projects</h2>
+<div class="container">
 
-  <h3>NBA Salary Analysis & Prediction Model</h3>
-  <p>
-    Analyzed NBA player statistics and salary data to identify important
-    performance factors and build predictive models.
-  </p>
+    <!-- About Section -->
+    <div class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a Data Science graduate with a 4.0 GPA and a strong foundation in data analysis, statistical modeling,
+            and machine learning. I have experience working with real-world datasets to uncover insights, improve decision-making,
+            and build predictive models.
+        </p>
+    </div>
 
-  <ul>
-    <li>Cleaned and prepared player performance data</li>
-    <li>Built regression and machine learning models</li>
-    <li>Evaluated model performance using R² and RMSE</li>
-    <li>Created visualizations to communicate findings</li>
-  </ul>
+    <!-- Projects Section -->
+    <div class="section">
+        <h2>Projects</h2>
 
-  <p>
-    <a href="#">View Project Repository</a>
-  </p>
+        <div class="project">
+            <h3>NBA Salary Analysis & Prediction</h3>
+            <p>
+                Analyzed NBA player statistics to identify key factors influencing salary and built predictive models
+                using regression and machine learning techniques.
+            </p>
+            <ul>
+                <li>Performed data cleaning and feature engineering</li>
+                <li>Built regression, decision tree, and random forest models</li>
+                <li>Evaluated performance using R² and RMSE</li>
+            </ul>
+            <a href="https://github.com/yourusername/nba-salary-analysis" target="_blank">View Project</a>
+        </div>
 
-  <h2>Contact</h2>
-  <p>Email: sleighty23@gmail.com</p>
+        <div class="project">
+            <h3>COVID-19 Death Rates by Demographics</h3>
+            <p>
+                Conducted statistical analysis on COVID-19 death rates to identify demographic disparities across age and race groups.
+            </p>
+            <ul>
+                <li>Used ANOVA and Kruskal-Wallis tests</li>
+                <li>Analyzed CDC data with R</li>
+                <li>Identified statistically significant differences between groups</li>
+            </ul>
+            <a href="https://github.com/yourusername/covid-death-rates-analysis" target="_blank">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Alzheimer’s Disease Prediction Model</h3>
+            <p>
+                Developed a predictive model to estimate Alzheimer’s disease risk based on patient data using classification techniques.
+            </p>
+            <ul>
+                <li>Performed data preprocessing and feature scaling</li>
+                <li>Built classification models including logistic regression</li>
+                <li>Evaluated model accuracy and key predictors</li>
+            </ul>
+            <a href="https://github.com/yourusername/alzheimers-prediction-model" target="_blank">View Project</a>
+        </div>
+
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section">
+        <h2>Contact</h2>
+        <p>Email: sleighty23@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Spencer Leighty</p>
+</footer>
+
 </body>
 </html>
